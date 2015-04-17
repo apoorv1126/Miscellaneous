@@ -1,0 +1,25 @@
+1. To intialize the git in the project repo : git init
+
+2. To check the status : git status
+
+3. To link the global repo with the local : git config --global user.name "username"
+			                  : git config --global user.email "github account email"
+
+4. To add something in gits attention : git add
+
+5. To commit changes : git commit -m "message here"
+
+6. To push your local file globally : git push
+
+7. To add brach : git branch "brachname"
+
+8. To navigate through the repo : git checkout masters
+				: git checkout "brach name"
+
+9. To download the repo : git pull
+
+10. To mirror your local repo with git account : git remote add origin http://github.com/username/foldertitleofgit.git
+
+11. To confirm the above statement mirroring : git remote -v
+
+12. More specific push : git push origin master
