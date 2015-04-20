@@ -23,3 +23,7 @@
 11. To confirm the above statement mirroring : git remote -v
 
 12. More specific push : git push origin master
+
+13. Remove existing remote repo : git remote rm origin /* origin is the name of the repo */
+
+13. CHange the remote origin : git remote set-url origin http://github.com/username/foldertitleofgit.git
