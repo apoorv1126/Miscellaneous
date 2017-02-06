@@ -55,7 +55,9 @@ https://www.corelan.be/index.php/articles/
 https://github.com/enddo/awesome-windows-exploitation
 http://www.fuzzysecurity.com/tutorials.html
 https://www.offensive-security.com/blog/
+
 Gotmilk privilege escalation
+
 Sqli Audi labs
 Metasploit Offensive security==> https://www.offensive-security.com/metasploit-unleashed/
 security tube
