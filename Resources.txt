@@ -1,0 +1,155 @@
+https://securitycafe.ro/2016/03/17/my-experience-with-the-oscp-certification/
+https://securitythoughts.wordpress.com/
+https://www.torontowebsitedeveloper.com/hacking-resources
+
+https://localhost.exposed/path-to-oscp/
+http://www.securitysift.com/offsec-pwb-oscp/ 
+https://localhost.exposed/2016/02/22/vlog-path-to-oscp-part-3
+https://g0blin.co.uk/devrandom-sleepy-vulnhub-writeup/
+
+https://localhost.exposed/2016/07/21/path-to-oscp-part-21-some-qs-and-as
+https://localhost.exposed/2016/08/17/path-to-oscp-fin
+https://gist.github.com/security-prince/ad55529c636dc8ba79c72abda9afeaf2
+
+http://pwnwiki.io/#!index.md
+
+https://stevendcampbell.blogspot.in/2015/05/preparing-for-offensive-securitys-pwk.html
+
+https://pinboard.in/u:unfo/t:oscp
+https://github.com/sindresorhus/awesome
+
+https://exploit-exercises.com/
+http://www.securitysift.com/offsec-pwb-oscp/
+http://cloud101.eu/uncategorized/security/2014/06/29/my-experience-getting-oscp.html
+
+https://www.linkedin.com/pulse/how-prepare-oscp-certification-praveen-kumar-k-oscp
+
+https://www.reddit.com/r/netsecstudents/comments/3vein0/exam_prep_for_oscp/
+
+https://www.xorrior.com/try-a-little-harder-oscp/
+
+https://jivoi.github.io/2015/06/19/oscp-prepare/
+
+https://sathisharthars.wordpress.com/2015/01/23/offensive-security-certified-professional-pwk-my-experience/
+
+https://probablyhackingyou.com/2016/10/24/offensive-securitys-pwk-course-review-and-oscp-exam/
+
+https://pen-testing.sans.org/
+https://github.com/isislab/Project-Ideas/wiki
+
+
+
+
+http://opensecuritytraining.info/External_Resources.html
+http://www.welivesecurity.com/2015/06/16/beginners-guide-starting-infosec/
+
+
+http://fumalwareanalysis.blogspot.in/p/malware-analysis-tutorials-reverse.html
+
+http://www.cs.fsu.edu/~redwood/OffensiveSecurity/lectures.html
+
+https://www.eecs.umich.edu/courses/eecs588/readings.html
+
+
+https://www.corelan.be/index.php/articles/
+https://github.com/enddo/awesome-windows-exploitation
+http://www.fuzzysecurity.com/tutorials.html
+https://www.offensive-security.com/blog/
+Gotmilk privilege escalation
+Sqli Audi labs
+Metasploit Offensive security==> https://www.offensive-security.com/metasploit-unleashed/
+security tube
+Buffer Overflow exploits
+pivoting
+http://netsec.ws/?p=398
+https://www.vulnhub.com
+http://null-byte.wonderhowto.com/
+http://pentestmonkey.net/
+http://overthewire.org/wargames/
+
+Ressources :
+Metasploit :
+– https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf
+– http://www.r00tsec.com/2015/07/howto-create-backdoor-with-msfvenom-by.html
+Windows privilege escalation :
+– http://www.fuzzysecurity.com/tutorials/16.html
+– http://it-ovid.blogspot.com/2012/02/windows-privilege-escalation.html
+– http://tim3warri0r.blogspot.com/2012/09/windows-post-exploitation-command-list.html
+– https://www.youtube.com/watch?v=_8xJaaQlpBo
+– https://www.youtube.com/watch?v=kMG8IsCohHA
+– http://travisaltman.com/windows-privilege-escalation-via-weak-service-permissions/
+– http://toshellandback.com/2015/11/24/ms-priv-esc/
+
+
+
+Try vulnhub labs as much as you can,
+buffer overflow, 
+enumeration, 
+tunnelling,
+ pivoting, 
+basic shell and python scripting, 
+some pentester labs... 
+and yes linux privilege escalation.
+
+
+Just as some others have said. Linux, python, networking for the pivot lessons and labs, Ruby for some of the MSF modules, C because some of the exploits are in that language along with knowing how to work a compiler, linux and windows privilege escalation, and most of all the ability to take the basics of what they teach and expand it on your own. Sure there's help but you have to make sure you've exhausted ALL the enumeration and exploit paths on a system otherwise you will get told to TRY HARDER!!! The biggest thing you will get from this course, at least for me, is being able to take the latest exploits and actually understanding how they work along with being able to implement them. Instead of just reading about them and wondering how they work.
+
+
+1) nmap advance level
+2) python basics
+3) Lfi/ Rfi
+4) Privilege Escalations
+5) Buffer overflows
+6) refer Point number 1
+7) nikto
+8) Dir buster
+
+https://www.reddit.com/r/AskNetsec/comments/30a2yw/oscp_study_material/
+
+https://vk.com/doc739502_437126495?hash=d2321dd5ccd42a32bf&dl=76171d825d4b718266
+
+http://n3ko1.github.io/certification/2015/05/27/oscp---offensive-security-certified-professional/
+
+
+http://garage4hackers.com/showthread.php?t=2457
+
+
+Hi marc,
+
+OSCP is totally hacking based practical exam. So the preparation is hack, hack and hack more. Emphasize is on manual penetration testing rather than using automated tools like nessus, metasploit etc.
+So practice a lot in free labs like what Anant has already suggested you.
+You shall be good at:
+1. reconnaissance - mapping and finding what ever info you could in a LAN (null sessions, zone transfer, snmp public/private, smtp enumeration etc)
+2. port scanning (tcp and udp both) with different attack vectors
+3. banner grabbing / version determination of services
+4. hunting exploits specific to services running on vulnerable server
+5. amending exploits to work in particular environment (exploit could be for, let's say win XP SP2 polish, you shall be able to make it work for XP SP2 english or may be for XP SP3 etc.)
+6. basic web based vulnerabilities like sql injection, iframe injection etc.
+7. compiling various windows based exploits using relevant compilers
+etc.
+
+So the crux is - more you hack, more you would get prepared for OSCP.
+
+Cheers! 
+
+
+
+
+Vulnerable vms for oscp 
+Kioptrix: Level 1 (#1) https://www.vulnhub.com/entry/kioptrix-level-1-1,22/
+Kioptrix: Level 1.1 (#2) https://www.vulnhub.com/entry/kioptrix-level-11-2,23/
+Kioptrix: Level 1.2 (#3) https://www.vulnhub.com/entry/kioptrix-level-12-3,24/
+Kioptrix: Level 1.3 (#4) https://www.vulnhub.com/entry/kioptrix-level-13-4,25/
+Kioptrix: 2014 https://www.vulnhub.com/entry/kioptrix-2014-5,62/
+FristiLeaks: 1.3 https://www.vulnhub.com/entry/fristileaks-13,133/
+Stapler: 1 https://www.vulnhub.com/entry/stapler-1,150/
+VulnOS: 2 https://www.vulnhub.com/entry/vulnos-2,147/
+SickOs: 1.2 https://www.vulnhub.com/entry/sickos-12,144/
+Brainpan: 1https://www.vulnhub.com/entry/brainpan-1,51/
+HackLAB: Vulnix https://www.vulnhub.com/entry/hacklab-vulnix,48/
+/dev/random: scream https://www.vulnhub.com/entry/devrandom-scream,47/
+pWnOS: 2.0 https://www.vulnhub.com/entry/pwnos-20-pre-release,34/
+SkyTower: 1 https://www.vulnhub.com/entry/skytower-1,96/
+Mr-Robot: 1 https://www.vulnhub.com/entry/mr-robot-1,151/
+PwnLab: init https://www.vulnhub.com/entry/pwnlab-init,158/
+IMF https://www.vulnhub.com/entry/imf-1,162/
