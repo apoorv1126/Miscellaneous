@@ -1,0 +1,16 @@
+###Linux machine terminal task replay
+
+Tool for recording : script [options] --timing=timing_file log_filename
+Eg : script --timing=time.txt script.log
+Eg : To end,type -  "exit"
+
+Tool for replay : scriptreplay
+Eg:  scriptreplay --timing=time.txt script.log
+
+### Windows machine record and replay 
+Tool 1 : MouseController(5.0x) (Open source)
+Tool 2 : Do It Again
+
+### Linux machine terminal and graphical record and replay
+Tool : GNU Xnee or cnee
+Eg : 
