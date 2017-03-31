@@ -13,4 +13,11 @@ Tool 2 : Do It Again
 
 ### Linux machine terminal and graphical record and replay
 Tool : GNU Xnee or cnee
-Eg : 
+
+# Record :
+Eg 1 : cnee --record --events-to-record 1000 --mouse --keyboard -o /tmp/xnee.xns -e /tmp/xnee.log -v
+Eg 2 : cnee --record --mouse --keyboard -o /tmp/xnee.xns -sk q
+
+# Replay :
+Eg 1 : cnee --replay -f /tmp/xnee.xns -v -e /tmp/xnee.log -ns
+Eg 2 : cnee --replay --force-core-replay -f /tmp/xnee.xns -ns
