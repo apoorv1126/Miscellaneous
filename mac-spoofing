@@ -1,0 +1,18 @@
+### Only for educational purpose
+### No resposible for any damage
+
+
+##Mac spoofing, use any public wifi router
+
+#Comman to use ethernet card address
+ifconfig or ifconfig -a
+
+# Check the ethernet address / mac address 
+
+#Find other mac addresses on the network
+
+arp -a / netdiscover
+
+#Spoofing the ethernet mac
+ifconfig eth0 ether 00:00:00:00:00:00(New-mac)
+
