@@ -16,3 +16,8 @@ arp -a / netdiscover
 #Spoofing the ethernet mac
 ifconfig eth0 ether 00:00:00:00:00:00(New-mac)
 
+or 
+
+ifconfig eth0 hw ether 00:00:00:00:00:00(New-mac)
+
+
