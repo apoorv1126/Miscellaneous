@@ -1,0 +1,9 @@
+###SSH Dynamic Tunneling or SOCKS 5 Proxy
+
+ssh -N -D 0.0.0.0:1080 localhost
+or
+ssh -D 1080 user@localhost
+
+##  -D : This flag does port forwarding on port 1080 and talks to the clients via SOCSK5 or SOCKS4 protocols, just like a regular SOCKS5 proxy.
+##  -N : Option makes sure ssh stays idle and doesn't execute any commands on localhost.
+##  -f : This flag makes the command to go into background as a daemon
