@@ -1,0 +1,16 @@
+yum install mod_ssl
+
+
+
+1. openssl req -out CSR.csr -new -newkey rsa:2048 -nodes -keyout privatekey.key
+2. openssl rsa -in privatekey.key -out server.key
+3. openssl x509 -req -days 365 -in CSR.csr -signkey server.key -out server.crt
+4. openssl req -text -noout -verify -in CSR.csr
+5. openssl rsa -in privateKey.key -check
+6. openssl rsa -in server.key -check
+7. openssl x509 -noout -modulus -in server.crt | openssl md5
+8. openssl x509 -noout -modulus -in server.key | openssl md5
+9. openssl x509 -noout -modulus -in server.crt | openssl md5
+10. openssl x509 -noout -modulus -in server.key | openssl md5
+11. openssl rsa -noout -modulus -in server.key | openssl md5
+12. openssl req -noout -modulus -in CSR.csr | openssl md5
