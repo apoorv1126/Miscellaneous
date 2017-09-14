@@ -1,0 +1,37 @@
+############################################################################
+######### Below commands could be used to recover the deleted files ########
+############################################################################
+
+
+1. Tool for ext4 - extundelete
+extundelete /dev/sda --restore-all ## Command
+
+- Restoring a single file
+extundelete /dev/sda --restore-file path/to/deleted/file /dev/sda ## Attemps to restore the file which was deleted at the given filename,
+called as "--restore-file dirname/filename".
+
+2. Second method to recover files in single user mode  
+#############################################################
+#### Only for text file recovery and for ext2 file systems ##
+#### For ext3 use ext3grep ##################################
+#############################################################
+- to tell user that system is going down in a single user mode:
+wall ## command ## Write message and to send press Ctrl + D
+
+- To go in single user mode 
+init 1 ## Command
+
+- Use grep command or ext3grep if your partition is ext3
+grep -b 'search-text' /dev/partition > file.txt ##Command
+
+or 
+
+grep -a -B[size before] -A[size after] 'text' /dev/[your_partition] > file.txt
+
+Eg : grep -i -a -B10 -A100 'nixCraft' /dev/sda1 > file.txt
+where : 
+-i : Ignore case distinctions in both the PATTERN and the input files i.e. match both uppercase and lowercase character.
+-a : Process a binary file as if it were text
+-B Print number lines/size of leading context before matching lines.
+-A: Print number lines/size of trailing context after matching lines.
+
