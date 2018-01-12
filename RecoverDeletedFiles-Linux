@@ -35,3 +35,6 @@ where :
 -B Print number lines/size of leading context before matching lines.
 -A: Print number lines/size of trailing context after matching lines.
 
+3. Command
+strings /dev/sdb
+
