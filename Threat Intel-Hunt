@@ -1,0 +1,55 @@
+- Reputation Lookup Cisco Talos
+https://www.talosintelligence.com/
+
+- IBM XForce : Threat intel platform IBM
+https://exchange.xforce.ibmcloud.com/
+
+- Alien vault
+# Search IOC on otx alienvault threat intel platform
+https://otx.alienvault.com/browse/indicators?sort=indicator&q=
+
+- Virus Total 
+# To verify malicious file, and threat intel.
+https://www.virustotal.com/en/
+
+- Threat miner
+# Link to multiple sites
+https://www.threatminer.org/
+
+-Threat crowd
+# Threat intelligence search engine
+https://www.threatcrowd.org/
+
+- CISCO Umbrella 
+# Threat intel platform of cisco / Not free
+# Connected with Threatgrid (Sandbox of cisco) 
+https://login.umbrella.com/
+
+- Ransomeware tracker
+https://ransomwaretracker.abuse.ch/
+
+- IP Lookup sites
+# Info on ip
+1. https://www.shodan.io/
+2. https://censys.io/
+3. https://www.robtex.com/ip-lookup/1.1.1.1
+4. https://ipinfo.io/1.1.1.1
+
+- MXTool (Eg : Mail , DNS, RDNS, etc)
+# Multiple tools to resolve ip.
+https://mxtoolbox.com/
+
+- Ports lookup
+https://www.speedguide.net/port.php?port=123
+
+- Symentic site review
+# To verify that site is not malicious / By symentic
+https://sitereview.bluecoat.com/#/
+
+- IP Distributer Europe
+# Official source to verify IP owner in europe
+https://www.ripe.net/
+
+- IP Distributer US
+# Official source to verify IP owner in United States
+https://www.arin.net/
