@@ -1,0 +1,24 @@
+##### Below details defines the steps to configure host system on VMware Player to connect to internet###########
+##### when the enterprise proxy is setup to exit to the internet ################
+
+### Specification ################
+Enterprise proxy : zscaler
+Listening port : 127.0.0.1:9000
+##################################
+
+#################################
+1. Choose NAT in network adapter config
+
+2. On guest machine(Linux), set the proxy using export command
+export http_proxy=http://SERVER1:PORT
+
+Where : 
+SERVER1 = 192.168.1.1 ####IP of the guest machine ethernet card given by host machine
+PORT = 9001 ###Choose port as per your own wish 
+
+3. On WINDOWS host machine create a port tunnel(pivot) using netsh command executing in Admin powershell
+netsh interface portproxy add v4tov4 listenport=[PORT] listenaddress=[IP CARTE VIRTUELLE] connectport=9000 connectaddress=127.0.0.1
+
+Where :
+listenport=9001
+listenaddress:192.168.1.1
